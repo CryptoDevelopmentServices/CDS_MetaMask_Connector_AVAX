@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="slick/slick.css"/>
+    <link rel="stylesheet" href="css/tip-button.css"/>
     <link rel="stylesheet" href="slick/slick-theme.css"/>
     <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/templatemo-dream-pulse.css" />
@@ -45,6 +46,10 @@
                             <div class="list-steps__item-main">
                               <h4><a href="#">MetaMask one click and add</a></h4>
                                 <button class="connectMetaMask">Enable Avalanche & Add CDS</button>
+
+                                <p>Want to help keep Crypto Development Services connectors running?</p>
+                                <p>You now can by using the pay with metamask function below</p>
+                                <button class="tip-button"></button>
                             </div>
                           </li>
                         </ul>
@@ -63,7 +68,6 @@
         <span style="color:#000">Created by <a href="https://www.cryptodevservices.com/" target="_blank">Crypto Development Services</a> <img src="./img/cds.png" width="20px"></span> <br>
         <span style="color:#000">© Crypto Development Services, All rights reserved.</span>
       </div>
-
     </div>
   </footer>
             </div>
@@ -79,6 +83,7 @@
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/templatemo-scripts.js"></script>
     <script src="js/connectMetaMask.js"></script>
+    <script src="js/tip-button.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
   </body>
 </html>
